@@ -22,7 +22,7 @@ export class MusicPlayerPage {
     } else {
       if (this.isMusicPaused == true) {
         this.songMedia.play();
-        this.isMusicPaused = false;
+        this.isMusicPaused = false;  
       }
     }
   }
